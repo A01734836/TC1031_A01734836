@@ -1,0 +1,16 @@
+Jorge Leonardo Garcia Reynoso - A01734836									27/08/2021
+
+Metodo iterativo:
+Este metodo ocupa la funcion for para crear un ciclo en donde cada uno de los numeros enteros entre 1 y n se van sumando uno
+por uno, esto significando que el proceso se iterara n veces (dependiendo de cuanto sea el valor de n), por lo que la funcion
+se encuentra en terminos de n, en otras palabras tenemos una funcion para O de O(n).
+
+Metodo recursivo:
+En esta funcion se manda a llamar la misma funcion n cantidad de veces para sumar todos los numeros enteros entre 1 y n, por 
+lo que se iterara n veces (dependiendo de cuanto sea el valor de n), por lo que tenemos una funcion en terminos de n, es 
+decir O(n)
+
+Metodo directo:
+Este metodo ocupa una ecuacion matematica para encontrar la suma de todos los numeros enteros entre 1 y n, esta es: n*(n+1)/2,
+esto indica que el proceso solo se iterara una vez, ya que solo resolvera la ecuacion matematica una vez utilizando el valor
+de n, por lo mismo nuestra funcion de la big O sera O(1).
